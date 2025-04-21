@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Hobbies</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #f9f9f9, #e0e0e0);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .hobby-card {
+            background: white;
+            padding: 20px;
+            width: 220px;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .hobby-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .hobby-card i {
+            font-size: 40px;
+            color: #6a5acd;
+            margin-bottom: 15px;
+        }
+
+        .hobby-card p {
+            font-size: 1.05em;
+            color: #444;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 40px;
+            text-decoration: none;
+            color: #6a5acd;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>My Awesome Hobbies</h2>
+
+    <div class="container">
+        <div class="hobby-card">
+            <i class="fas fa-tools"></i>
+            <p>Troubleshooting Devices</p>
+        </div>
+        <div class="hobby-card">
+            <i class="fas fa-laptop-code"></i>
+            <p>Web Designing</p>
+        </div>
+        <div class="hobby-card">
+            <i class="fas fa-gamepad"></i>
+            <p>Playing Video Games</p>
+        </div>
+        <div class="hobby-card">
+            <i class="fas fa-headphones-alt"></i>
+            <p>Listening to Music</p>
+        </div>
+        <div class="hobby-card">
+            <i class="fas fa-paint-brush"></i>
+            <p>Graphic Design (Photoshop)</p>
+        </div>
+    </div>
+
+    <a href="index.html">&larr; Back to Home</a>
+</body>
+</html>
